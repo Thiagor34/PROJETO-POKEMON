@@ -1,6 +1,8 @@
 # PROJETO-POKEMON
 Projeto Site Pokémon feito totalmente em JS / HTML / CSS sem utilizar de APIs
 
+#Edit - Preciso ajustar a responsividade para celulares.
+
 🔥 História Pokémon<br>
 🔥 Tabela de elementos<br>
 🔥 Demonstração de Pokedéx<br>
