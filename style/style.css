@@ -1,0 +1,252 @@
+@charset "UTF-8";
+
+:root {
+    --cor1:#E0786E;
+    --cor2:#BF3E32;
+    --cor3:#4887E0;
+    --cor4:#445A87;
+    --cor5:#D5E060;
+
+    --font-padrao: Arial, Verdana, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor3);
+    font-family: var(--font-padrao);
+}
+
+header {
+    background-image: linear-gradient(to top, var(--cor2), var(--cor1));
+    min-height: 150px;
+    text-align: center;
+}
+header > img {
+    max-width: 300px;
+}
+
+header > p {
+    color: black;
+    font-family: var(--font-padrao);
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: auto;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.183);
+}
+
+nav {
+    background-color: var(--cor4);
+    padding: 10px;
+    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.333);
+}
+
+nav > a {
+    text-decoration: none;
+    color: var(--cor5);
+    font-family: var(--font-padrao);
+    font-weight: bold;
+    padding: 5px 20px;
+    border-radius: 5px;
+    transition-duration: 0.3s;
+}
+
+nav > a:hover {
+    background-color: var(--cor3);
+    color: black;
+}
+
+main {
+    background-color: white;
+    min-width: 350px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+main p {
+    font-size: 1.1em;
+    line-height: 1.2em;
+    text-align: justify;
+    text-indent: 30px;
+    margin: 15px 15px;
+}
+
+main img {
+    width: 70%;
+    display: block;
+    margin: auto;
+    padding: 10px 0px;
+}
+
+main img.pequena {
+    width: 350px;
+    display: block;
+    margin: auto;
+}
+
+main a {
+    text-decoration: none;
+    color: var(--cor4);
+}
+
+main a:hover {
+    text-decoration: underline;
+    background-color: var(--cor4);
+    color: white;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+main ul {
+    list-style-position: inside;
+    list-style-type: '\2714\00A0\00A0';
+    columns: 2;
+    color:var(--cor4);
+    font-weight: bold;
+    font-size: 0.9em;
+    line-height: 1.2em;
+}
+
+main ul.filmes {
+    list-style-position: inside;
+    list-style-type: '\1F39E\00A0\00A0';
+    columns: 2;
+    color:var(--cor4);
+    font-weight: bold;
+    font-size: 0.9em;
+    line-height: 1.2em;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+    font-size: 2.1em;
+    margin: auto;
+    text-shadow: 2px 2px 9px rgba(0, 0, 0, 0.450); 
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+    font-size: 1.6em;
+    text-shadow: 2px 2px 9px rgba(0, 0, 0, 0.450); 
+}
+
+h3 {
+    text-align: center;
+    padding: 10px;
+    text-shadow: 2px 2px 9px rgba(0, 0, 0, 0.450); 
+}
+
+strong{
+    color: var(--cor4);
+}
+
+strong.kanto {
+    color: var(--cor2);
+}
+strong.pikachu {
+    color: black;
+}
+
+strong.pikachu:hover {
+    background-color: gold;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+div.video {
+    background-color: var(--cor4);
+    margin: 0px 0px 30px 0px;
+    padding: 30px;
+    padding-bottom: 58%;    
+    position: relative;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+aside {
+    background-color: var(--cor1);
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.353);
+}
+
+aside > h3 {
+    background-color: var(--cor2);
+    color: white;
+    padding: 5px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    text-shadow: 2px 2px 9px rgba(0, 0, 0, 0.748); 
+}
+
+aside > ul {    
+    color:var(--cor4);
+    font-weight: bold;
+    font-size: 0.9em;
+    line-height: 1.2em;
+    padding: 10px;    
+    transition-duration: 0.3s;
+}
+
+h4 {
+    background-color: var(--cor4);
+    color:var(--cor5);
+    width: 57%;
+    margin-left: 10px;
+    font-size: 1em;
+    padding: 5px;
+    border-radius: 5px;
+    text-shadow: 2px 2px 9px rgba(0, 0, 0, 0.748); 
+}
+div#games > p {
+    text-align: center;
+    padding-bottom: 50px;
+    columns: 1;
+}
+
+picture.games > img {
+    width: 360px;
+    height: 200px;
+}
+
+picture.gamesp > img {
+    width: 180px;
+    height: 200px;
+}
+
+
+footer {
+    background-color: var(--cor4);
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: white;
+    padding: 2px;
+    border-radius: 5px;
+    font-weight: bold;
+}

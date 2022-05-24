@@ -1,0 +1,354 @@
+@charset "UTF-8";
+
+:root {
+    --cor1:#E0786E;
+    --cor2:#BF3E32;
+    --cor3:#4887E0;
+    --cor4:#445A87;
+    --cor5:#D5E060;
+
+    --font-padrao: Arial, Verdana, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor3);
+    font-family: var(--font-padrao);
+}
+
+header {
+    background-image: linear-gradient(to top, var(--cor2), var(--cor1));
+    min-height: 150px;
+    text-align: center;
+}
+
+header > img {
+    max-width: 300px;
+}
+
+header > p {
+    color: black;
+    font-family: var(--font-padrao);
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: auto;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.183);
+}
+
+nav {
+    background-color: var(--cor4);
+    padding: 10px;
+    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.333);
+}
+
+nav > a {
+    text-decoration: none;
+    color: var(--cor5);
+    font-family: var(--font-padrao);
+    font-weight: bold;
+    padding: 5px 20px;
+    border-radius: 5px;
+    transition-duration: 0.3s;
+}
+
+nav > a:hover {
+    background-color: var(--cor3);
+    color: black;
+}
+
+main {
+    background-color: white;
+    min-width: 350px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+main p {
+    font-size: 1.1em;
+    line-height: 1.2em;
+    text-align: justify;
+    text-indent: 30px;
+    margin: 15px 15px;
+}
+
+
+main ul {
+    list-style-position: inside;
+    list-style-type: '\1F525\00A0\00A0';
+    columns: 1;
+    font-size: 1.1em;
+    line-height: 1.2em;
+    text-align: justify;
+}
+
+div.lista {
+    width: 400px;
+    margin: 40px auto;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+    font-size: 2.1em;
+    margin: auto;
+    text-shadow: 2px 2px 9px rgba(0, 0, 0, 0.450); 
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+    font-size: 1.6em;
+    text-shadow: 2px 2px 9px rgba(0, 0, 0, 0.450); 
+}
+
+h3 {
+    text-align: center;
+    padding: 10px;
+    text-shadow: 2px 2px 9px rgba(0, 0, 0, 0.450); 
+}
+
+strong{
+    color: var(--cor4);
+}
+
+footer {
+    background-color: var(--cor4);
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: white;
+    padding: 2px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.water:hover {
+    background-color: rgb(119, 163, 251);
+    border-radius: 5px;
+    padding: 4px;
+    color: black;
+}
+
+.dragon:hover {
+    background-color: rgb(150, 123, 184);
+    border-radius: 5px;
+    padding: 4px;
+    color: black;
+}
+
+.electric:hover {
+    background-color: rgb(255, 222, 36);
+    border-radius: 5px;
+    padding: 4px;
+    color: black;
+}
+
+.fairy:hover {
+    background-color: rgb(253, 124, 230);
+    border-radius: 5px;
+    padding: 4px;
+    color: black;
+}
+
+.ghost:hover {
+    background-color: rgb(111, 16, 140);
+    border-radius: 5px;
+    padding: 4px;
+    color: black;
+}
+
+.fire:hover {
+    background-color: rgb(255, 151, 55);
+    border-radius: 5px;
+    padding: 4px;
+    color: black;
+}
+
+.ice:hover {
+    background-color: rgb(36, 255, 240);
+    border-radius: 5px;
+    padding: 4px;
+    color: black;
+}
+
+.bug:hover {
+    background-color: rgb(154, 193, 93);
+    border-radius: 5px;
+    padding: 4px;
+    color: black;
+}
+
+.fight:hover {
+    background-color: rgb(238, 72, 57);
+    border-radius: 5px;
+    padding: 4px;
+    color: black;
+}
+
+.steel:hover {
+    background-color: rgb(211, 211, 211);
+    border-radius: 5px;
+    padding: 4px;
+    color: black;
+}
+
+.normal:hover {
+    background-color: rgb(171, 171, 171);
+    border-radius: 5px;
+    padding: 4px;
+    color: black;
+}
+
+.dark:hover {
+    background-color: rgb(108, 69, 54);
+    border-radius: 5px;
+    padding: 4px;
+    color: black;
+}
+
+.rock:hover {
+    background-color: rgb(201, 185, 97);
+    border-radius: 5px;
+    padding: 4px;
+    color: black;
+}
+
+.grass:hover {
+    background-color: rgb(38, 201, 29);
+    border-radius: 5px;
+    padding: 4px;
+    color: black;
+}
+
+.psy:hover {
+    background-color: rgb(255, 36, 226);
+    border-radius: 5px;
+    padding: 4px;
+    color: black;
+}
+
+.ground:hover {
+    background-color: rgb(235, 216, 111);
+    border-radius: 5px;
+    padding: 4px;
+    color: black;
+}
+
+.poison:hover {
+    background-color: rgb(215, 36, 255);
+    border-radius: 5px;
+    padding: 4px;
+    color: black;
+}
+
+.fly:hover {
+    background-color: rgb(180, 167, 255);
+    border-radius: 5px;
+    padding: 4px;
+    color: black;
+}
+
+.icontype {
+    width: 30px;
+    height: 30px;
+}
+
+div.container {
+    overflow-x: auto;
+}
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    border-collapse: collapse;
+    box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.639);
+    position: relative;
+}
+
+caption {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6em;
+    font-weight: bold;
+    padding: 3px;
+    background-color:var(--cor2);
+    color: white;
+    text-shadow: 2px 2px 9px rgba(0, 0, 0, 0.450);
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.639);
+}
+
+table > abbr {
+    background-color: black;
+    color: white;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 3px;
+    text-align: center;
+    font-weight: bold;
+}
+
+td.none {
+    background-color: var(--cor3);
+    color: var(--cor5);
+    border: none;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+}
+
+th.none {
+    background-color: var(--cor3);
+    color: var(--cor5);
+    border: none;
+}
+
+td.left {
+    background-color: var(--cor3);
+    color: var(--cor5);
+    border: none;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+
+td.top {
+    background-color: var(--cor3);
+    color: var(--cor5);
+    border: none;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.dobro {
+    background-color:rgb(217, 240, 195);
+}
+
+.metade {
+    background-color: rgb(245, 185, 185);
+}
+
+.zero {
+    background-color: rgb(164, 164, 164);
+}
+.corfundo {
+    background-color:var(--cor2);
+}
+
